@@ -7,7 +7,7 @@
 //
 
 @import UIKit;
-
+#import <EndoClient/EndoClient.h>
 @interface EndoAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

@@ -2,7 +2,9 @@ use_frameworks!
 
 target 'EndoClientDemo_Example' do
   pod 'EndoClientDemo', :path => '../'
-
+  platform :ios, '8.0'
+#  pod 'CocoaAsyncSocket'
+  
   target 'EndoClientDemo_Tests' do
     inherit! :search_paths
 

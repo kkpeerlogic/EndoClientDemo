@@ -1,0 +1,6 @@
+framework module EndoClient {
+  umbrella header "EndoClient.h"
+
+  export *
+  module * { export * }
+}

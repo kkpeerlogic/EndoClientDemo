@@ -17,6 +17,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    EndoAddCommand(@"testEndo", @"Testing Endo", ^(NSArray<NSString*>*parameters)
+                   {
+                       NSLog(@"Calling EndoClient");
+                   });
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

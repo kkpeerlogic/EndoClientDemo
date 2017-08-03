@@ -1,0 +1,6 @@
+framework module Pods_EndoClientDemo_Example {
+  umbrella header "Pods-EndoClientDemo_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

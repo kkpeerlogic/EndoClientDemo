@@ -1,0 +1,19 @@
+PODS:
+  - CocoaAsyncSocket (7.6.1)
+  - EndoClientDemo (0.1.0):
+    - CocoaAsyncSocket
+
+DEPENDENCIES:
+  - EndoClientDemo (from `../`)
+
+EXTERNAL SOURCES:
+  EndoClientDemo:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 7eadd3f59e1a6c84e2aefc93e9ff7b55156fe174
+  EndoClientDemo: 89d2f8c7c0608ef013189138ed06de334e27766b
+
+PODFILE CHECKSUM: b9b8d4c2bbb36ab2c5800e4a8f8711c7feabc122
+
+COCOAPODS: 1.3.0.beta.1
