@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EndoClientDemo_Example' do
+  pod 'EndoClientDemo', :path => '../'
+
+  target 'EndoClientDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
