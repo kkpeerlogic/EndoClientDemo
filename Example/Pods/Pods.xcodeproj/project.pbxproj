@@ -19,11 +19,11 @@
 		78E116A91F399F3800289237 /* EndoAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 869462819D4471F6E367077CDDCE99FD /* EndoAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78E116AA1F39A02300289237 /* EndoClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 813491E7C54559DD83D9DC5F4EE71D23 /* EndoClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78E117241F39D0DD00289237 /* EndoTVClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 78E117221F39D0DD00289237 /* EndoTVClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78E1172C1F39D0F600289237 /* EndoNetService.h in Headers */ = {isa = PBXBuildFile; fileRef = 339CF2712B9D2545B7751AB6DD638EBB /* EndoNetService.h */; };
+		78E1172C1F39D0F600289237 /* EndoNetService.h in Headers */ = {isa = PBXBuildFile; fileRef = 339CF2712B9D2545B7751AB6DD638EBB /* EndoNetService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78E1172D1F39D12500289237 /* EndoAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 869462819D4471F6E367077CDDCE99FD /* EndoAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78E1172E1F39D13100289237 /* Endo.h in Headers */ = {isa = PBXBuildFile; fileRef = C6B7B510C82FEF6BA95A5588D571A69D /* Endo.h */; };
-		78E1172F1F39D13100289237 /* EndoCommander.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F43A41E2C06312273BE49F7C80E2F85 /* EndoCommander.h */; };
-		78E117301F39D13100289237 /* EndoFileSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = C3A194F68F626FD31FC71DFC1F5903AF /* EndoFileSystem.h */; };
+		78E1172E1F39D13100289237 /* Endo.h in Headers */ = {isa = PBXBuildFile; fileRef = C6B7B510C82FEF6BA95A5588D571A69D /* Endo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78E1172F1F39D13100289237 /* EndoCommander.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F43A41E2C06312273BE49F7C80E2F85 /* EndoCommander.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78E117301F39D13100289237 /* EndoFileSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = C3A194F68F626FD31FC71DFC1F5903AF /* EndoFileSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E4F0161B4D135DA3A0763619A56C2F5 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA669EA9DB68616A6ECA64CA78D52EAC /* CocoaAsyncSocket-dummy.m */; };
 		7EF0A11EB5160CD6A095345902879366 /* Pods-EndoClientDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF20E783CFEA659A06A976859C6D0BF4 /* Pods-EndoClientDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8480493AEC1C7AF1B5C0E0BF2F70FB44 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9509718CFCC3D81230AA7CF02478B7 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
