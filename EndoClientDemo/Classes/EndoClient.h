@@ -14,4 +14,4 @@ FOUNDATION_EXPORT double EndoClientVersionNumber;
     //! Project version string for EndoClient.
 FOUNDATION_EXPORT const unsigned char EndoClientVersionString[];
 
-#import <EndoClient/EndoAPI.h>
+#import "EndoAPI.h"

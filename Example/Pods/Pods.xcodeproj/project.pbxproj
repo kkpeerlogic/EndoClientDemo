@@ -7,30 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		055FC89EA297E321B8E0E210B2C4ABDF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F264E6162473F683835EBD8DB43A58 /* ReplaceMe.m */; };
 		0DB39470DED63E7A66484A5B681F97CB /* EndoClientDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62BC2FC65B6861546B1C0F1E3738D772 /* EndoClientDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27F8ED0DBBD53E0B9D38F1DB7083415D /* EndoClient in Sources */ = {isa = PBXBuildFile; fileRef = 4A512A7CCF26DF4DDE7F30BB03E05C57 /* EndoClient */; };
 		2BF39F8BA82CDB1DB26602C9FFFE05D4 /* Pods-EndoClientDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 689F51B678C33DC9C9AEA2ADFC3C5F6D /* Pods-EndoClientDemo_Example-dummy.m */; };
 		2DAA98C8614A6DED26CE8712531AE1FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */; };
 		2EB8F1D113225023E6AADAFB2BB0BB27 /* Endo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B34BECE0C0DF2C7F2D5A496C2392C4D /* Endo.m */; };
 		419F954F34AAA4654D88DFF89739803B /* EndoFileSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = C3A194F68F626FD31FC71DFC1F5903AF /* EndoFileSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4EFD1200C669F9235615634F75B1CF7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */; };
 		52C3D0B938116799E34B40F3D0413C88 /* EndoCommander.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F43A41E2C06312273BE49F7C80E2F85 /* EndoCommander.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		563707EEDC23324E8463B3F0D6ECE8CD /* CodeResources in Sources */ = {isa = PBXBuildFile; fileRef = 4BFD0CF1CE4E66B86691CBE53E1127D8 /* CodeResources */; };
 		6D25BEF56CF11F55905C2B30F064F219 /* EndoCommander.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D9F4B4479D44174D342D8AE9C3B795 /* EndoCommander.m */; };
 		78C00B67706DA8688D87764F7CAB735C /* EndoAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 191A5E6BE69598488943DE51F44D4495 /* EndoAPI.m */; };
-		7B8242018CF55E32C06742CBF0B7E8EA /* EndoAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 72CA722357E1FDAE260DA1CF5E91CD8A /* EndoAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E4F0161B4D135DA3A0763619A56C2F5 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA669EA9DB68616A6ECA64CA78D52EAC /* CocoaAsyncSocket-dummy.m */; };
 		7EF0A11EB5160CD6A095345902879366 /* Pods-EndoClientDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF20E783CFEA659A06A976859C6D0BF4 /* Pods-EndoClientDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8480493AEC1C7AF1B5C0E0BF2F70FB44 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9509718CFCC3D81230AA7CF02478B7 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		91035D09071845FF8250613A8036AC00 /* EndoClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 813491E7C54559DD83D9DC5F4EE71D23 /* EndoClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		97A51F13631ADF3E9387E9927F6FE625 /* EndoStripForAppStore.sh in Sources */ = {isa = PBXBuildFile; fileRef = 6261B6D307C3FE903B711C9FDE5D860F /* EndoStripForAppStore.sh */; };
 		994A1EB8D8CAAD78D147160262644FC0 /* EndoClientDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C9D493B468D7C413039C151ED63EBB /* EndoClientDemo-dummy.m */; };
 		A66689C3438B2C48E5BFA7C792EE29AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */; };
 		A882891E5A89CADF96C2CA79606409CA /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = D82B81E88C7D98976B018DB4903B5D0C /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC7DC2A21843CD99040DCD79FF3BE91B /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 30CCCF41576100268BFA48C3EED9517C /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEE9644DA0EFCF945438E125BA4F0724 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9235AEFD042C8D96AF4B4AA61E18C420 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B05BCB0D9B8025ADAAE73AB2DB70B316 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 9C5792AE78794F68AE49659BA6644B31 /* Info.plist */; };
 		B688B80E8B12B7F6988B29DC592DA94D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A7E85CD06FB5B7EAC4FAD953117F2D2 /* Security.framework */; };
 		B84AA46878DE1AC5550CFDDB19AFC6FE /* Pods-EndoClientDemo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFD95A4FDEC6B2BDF6F86A1290F23F1 /* Pods-EndoClientDemo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2BC874545EAEE5A64E81AC328437F48 /* EndoFileSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = F22AA1A75B2EDA0EA07B702AD41AEB47 /* EndoFileSystem.m */; };
@@ -41,7 +35,6 @@
 		EBE5D8ADEEA27F97EF662BD25B181143 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */; };
 		EFFC317E4679418B849DDFAC7AB4A72D /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91BA6F6CCD385509DC9FF3B1ACE3E309 /* CocoaAsyncSocket.framework */; };
 		F2E86E08510B99C1F2740179801ED4BD /* EndoNetService.h in Headers */ = {isa = PBXBuildFile; fileRef = 339CF2712B9D2545B7751AB6DD638EBB /* EndoNetService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F62FA9BF368246253EA2335F4ACA9501 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = F1EBE0C5CBA085B8A3200FBB178DCAD7 /* module.modulemap */; };
 		F9D01A6DE1639AFD0E5F04905D12EDE0 /* Pods-EndoClientDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A11133949D905B385BB92117F11FF084 /* Pods-EndoClientDemo_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -84,20 +77,15 @@
 		3174277A2F855B0605F76366C2B710A3 /* Pods-EndoClientDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EndoClientDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		339CF2712B9D2545B7751AB6DD638EBB /* EndoNetService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EndoNetService.h; sourceTree = "<group>"; };
 		48C00BCCE90193C6787242EF7AE4F6CC /* Pods-EndoClientDemo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EndoClientDemo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4A512A7CCF26DF4DDE7F30BB03E05C57 /* EndoClient */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "compiled.mach-o.dylib"; path = EndoClient; sourceTree = "<group>"; };
-		4BFD0CF1CE4E66B86691CBE53E1127D8 /* CodeResources */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = CodeResources; sourceTree = "<group>"; };
 		56387DA55BBF9D5729BB7A1C311C2894 /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
 		5A7E85CD06FB5B7EAC4FAD953117F2D2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		5FE27AA8EF710D66EBB9FF6703D01D1B /* Pods-EndoClientDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EndoClientDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		601E37EDFF15F9E763332F8ED114AF13 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
-		6261B6D307C3FE903B711C9FDE5D860F /* EndoStripForAppStore.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = EndoStripForAppStore.sh; sourceTree = "<group>"; };
 		62BC2FC65B6861546B1C0F1E3738D772 /* EndoClientDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EndoClientDemo-umbrella.h"; sourceTree = "<group>"; };
 		6894413196C02C9C7BB1282D7E3AFCC2 /* Pods-EndoClientDemo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EndoClientDemo_Example.modulemap"; sourceTree = "<group>"; };
 		689F51B678C33DC9C9AEA2ADFC3C5F6D /* Pods-EndoClientDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EndoClientDemo_Example-dummy.m"; sourceTree = "<group>"; };
 		6B9957E3AACDEAC2EED31C19CCF4CFD7 /* Pods-EndoClientDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EndoClientDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		72CA722357E1FDAE260DA1CF5E91CD8A /* EndoAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EndoAPI.h; sourceTree = "<group>"; };
 		73A6ECA70B74C3F9AA5D9DE8928E4074 /* EndoClientDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EndoClientDemo.modulemap; sourceTree = "<group>"; };
-		76F264E6162473F683835EBD8DB43A58 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		813491E7C54559DD83D9DC5F4EE71D23 /* EndoClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EndoClient.h; sourceTree = "<group>"; };
 		869462819D4471F6E367077CDDCE99FD /* EndoAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EndoAPI.h; sourceTree = "<group>"; };
 		8F9509718CFCC3D81230AA7CF02478B7 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
@@ -105,10 +93,8 @@
 		9235AEFD042C8D96AF4B4AA61E18C420 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B34BECE0C0DF2C7F2D5A496C2392C4D /* Endo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Endo.m; sourceTree = "<group>"; };
-		9C5792AE78794F68AE49659BA6644B31 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A11133949D905B385BB92117F11FF084 /* Pods-EndoClientDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EndoClientDemo_Tests-dummy.m"; sourceTree = "<group>"; };
 		A2A767EC6A5964A849B02EEEC361408C /* Pods_EndoClientDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EndoClientDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3DF3D5758E1CEE90F453B8046528FBD /* EndoStripForAppStore.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = EndoStripForAppStore.sh; sourceTree = "<group>"; };
 		A8632751DD8D2D519C575402788A1465 /* EndoClientDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EndoClientDemo.xcconfig; sourceTree = "<group>"; };
 		A8A7C0B72CB1BFEC20A42E9E5B3E1A5D /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
 		ACE375173EE95CDE38731AE33A1092AE /* Pods-EndoClientDemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EndoClientDemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -127,9 +113,7 @@
 		E53E30477172F91B77B3F6C4A18C4FD9 /* EndoClientDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EndoClientDemo-prefix.pch"; sourceTree = "<group>"; };
 		E9F6912505A1D716A9FB4DA6D7C66DA8 /* EndoClientDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EndoClientDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F18CCAEB371EC97E5B9FA432AB0D5F33 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		F1EBE0C5CBA085B8A3200FBB178DCAD7 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		F22AA1A75B2EDA0EA07B702AD41AEB47 /* EndoFileSystem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EndoFileSystem.m; sourceTree = "<group>"; };
-		F534FEDF9D4D5BBFBB56B0926F6D41D2 /* EndoClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EndoClient.h; sourceTree = "<group>"; };
 		F65296E6B112F04A33706A95799F4885 /* Pods_EndoClientDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EndoClientDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA669EA9DB68616A6ECA64CA78D52EAC /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
 		FCFD95A4FDEC6B2BDF6F86A1290F23F1 /* Pods-EndoClientDemo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EndoClientDemo_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -212,16 +196,6 @@
 			path = "Target Support Files/Pods-EndoClientDemo_Tests";
 			sourceTree = "<group>";
 		};
-		481510AB441B734EE88CB5B29464DDB6 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				72CA722357E1FDAE260DA1CF5E91CD8A /* EndoAPI.h */,
-				F534FEDF9D4D5BBFBB56B0926F6D41D2 /* EndoClient.h */,
-				A3DF3D5758E1CEE90F453B8046528FBD /* EndoStripForAppStore.sh */,
-			);
-			path = Headers;
-			sourceTree = "<group>";
-		};
 		57B648335473190C3B0747F8DB761F76 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,14 +208,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/CocoaAsyncSocket";
-			sourceTree = "<group>";
-		};
-		604E0A729AF0FE94CFE7FAFB6D82C5D6 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				F1EBE0C5CBA085B8A3200FBB178DCAD7 /* module.modulemap */,
-			);
-			path = Modules;
 			sourceTree = "<group>";
 		};
 		66E8D53FE7B0F6AFA305699384C70FD3 /* Classes */ = {
@@ -258,23 +224,8 @@
 				F22AA1A75B2EDA0EA07B702AD41AEB47 /* EndoFileSystem.m */,
 				339CF2712B9D2545B7751AB6DD638EBB /* EndoNetService.h */,
 				D74A9F9343B1957CA0DC617A3693F218 /* EndoNetService.m */,
-				6261B6D307C3FE903B711C9FDE5D860F /* EndoStripForAppStore.sh */,
-				76F264E6162473F683835EBD8DB43A58 /* ReplaceMe.m */,
-				7880A63B1EDF1E806ACA8944D70B2AFA /* EndoClient.framework */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		7880A63B1EDF1E806ACA8944D70B2AFA /* EndoClient.framework */ = {
-			isa = PBXGroup;
-			children = (
-				4A512A7CCF26DF4DDE7F30BB03E05C57 /* EndoClient */,
-				9C5792AE78794F68AE49659BA6644B31 /* Info.plist */,
-				7D694F548C527F8683B1A81DE0F80540 /* _CodeSignature */,
-				481510AB441B734EE88CB5B29464DDB6 /* Headers */,
-				604E0A729AF0FE94CFE7FAFB6D82C5D6 /* Modules */,
-			);
-			path = EndoClient.framework;
 			sourceTree = "<group>";
 		};
 		7A240DB567C1000F7B1753BC75B35AE1 /* EndoClientDemo */ = {
@@ -283,14 +234,6 @@
 				66E8D53FE7B0F6AFA305699384C70FD3 /* Classes */,
 			);
 			path = EndoClientDemo;
-			sourceTree = "<group>";
-		};
-		7D694F548C527F8683B1A81DE0F80540 /* _CodeSignature */ = {
-			isa = PBXGroup;
-			children = (
-				4BFD0CF1CE4E66B86691CBE53E1127D8 /* CodeResources */,
-			);
-			path = _CodeSignature;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -414,8 +357,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFF246A7FE84BE65F936E649467168F6 /* Endo.h in Headers */,
-				7B8242018CF55E32C06742CBF0B7E8EA /* EndoAPI.h in Headers */,
-				7B8242018CF55E32C06742CBF0B7E8EA /* EndoAPI.h in Headers */,
 				91035D09071845FF8250613A8036AC00 /* EndoClient.h in Headers */,
 				91035D09071845FF8250613A8036AC00 /* EndoClient.h in Headers */,
 				0DB39470DED63E7A66484A5B681F97CB /* EndoClientDemo-umbrella.h in Headers */,
@@ -557,19 +498,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				563707EEDC23324E8463B3F0D6ECE8CD /* CodeResources in Sources */,
 				2EB8F1D113225023E6AADAFB2BB0BB27 /* Endo.m in Sources */,
 				78C00B67706DA8688D87764F7CAB735C /* EndoAPI.m in Sources */,
-				27F8ED0DBBD53E0B9D38F1DB7083415D /* EndoClient in Sources */,
 				994A1EB8D8CAAD78D147160262644FC0 /* EndoClientDemo-dummy.m in Sources */,
 				6D25BEF56CF11F55905C2B30F064F219 /* EndoCommander.m in Sources */,
 				C2BC874545EAEE5A64E81AC328437F48 /* EndoFileSystem.m in Sources */,
 				DD11CBBBD4D74422AEEF0E5F27D78487 /* EndoNetService.m in Sources */,
-				97A51F13631ADF3E9387E9927F6FE625 /* EndoStripForAppStore.sh in Sources */,
-				97A51F13631ADF3E9387E9927F6FE625 /* EndoStripForAppStore.sh in Sources */,
-				B05BCB0D9B8025ADAAE73AB2DB70B316 /* Info.plist in Sources */,
-				F62FA9BF368246253EA2335F4ACA9501 /* module.modulemap in Sources */,
-				055FC89EA297E321B8E0E210B2C4ABDF /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

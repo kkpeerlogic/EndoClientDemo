@@ -27,6 +27,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.pod_target_xcconfig = {'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) COCOAPODS=1 POD_CONFIGURATION_DEBUG=1 DEBUG=1 ENDO_NO_NSLOG_OVERRIDE'}
 
   s.source_files = 'EndoClientDemo/Classes/**/*'
   
