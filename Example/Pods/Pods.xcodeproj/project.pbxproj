@@ -18,6 +18,7 @@
 		78C00B67706DA8688D87764F7CAB735C /* EndoAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 191A5E6BE69598488943DE51F44D4495 /* EndoAPI.m */; };
 		78E116A91F399F3800289237 /* EndoAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 869462819D4471F6E367077CDDCE99FD /* EndoAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78E116AA1F39A02300289237 /* EndoClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 813491E7C54559DD83D9DC5F4EE71D23 /* EndoClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78E117171F39CBAC00289237 /* EndoClientDemo-tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 78E117151F39CBAC00289237 /* EndoClientDemo-tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E4F0161B4D135DA3A0763619A56C2F5 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA669EA9DB68616A6ECA64CA78D52EAC /* CocoaAsyncSocket-dummy.m */; };
 		7EF0A11EB5160CD6A095345902879366 /* Pods-EndoClientDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF20E783CFEA659A06A976859C6D0BF4 /* Pods-EndoClientDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8480493AEC1C7AF1B5C0E0BF2F70FB44 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9509718CFCC3D81230AA7CF02478B7 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -87,6 +88,9 @@
 		689F51B678C33DC9C9AEA2ADFC3C5F6D /* Pods-EndoClientDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EndoClientDemo_Example-dummy.m"; sourceTree = "<group>"; };
 		6B9957E3AACDEAC2EED31C19CCF4CFD7 /* Pods-EndoClientDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EndoClientDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		73A6ECA70B74C3F9AA5D9DE8928E4074 /* EndoClientDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EndoClientDemo.modulemap; sourceTree = "<group>"; };
+		78E117131F39CBAC00289237 /* EndoClientDemo-tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "EndoClientDemo-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78E117151F39CBAC00289237 /* EndoClientDemo-tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EndoClientDemo-tvOS.h"; sourceTree = "<group>"; };
+		78E117161F39CBAC00289237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		813491E7C54559DD83D9DC5F4EE71D23 /* EndoClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EndoClient.h; sourceTree = "<group>"; };
 		869462819D4471F6E367077CDDCE99FD /* EndoAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EndoAPI.h; sourceTree = "<group>"; };
 		8F9509718CFCC3D81230AA7CF02478B7 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
@@ -137,6 +141,13 @@
 			files = (
 				EFFC317E4679418B849DDFAC7AB4A72D /* CocoaAsyncSocket.framework in Frameworks */,
 				A66689C3438B2C48E5BFA7C792EE29AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78E1170F1F39CBAC00289237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +240,15 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		78E117141F39CBAC00289237 /* EndoClientDemo-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				78E117151F39CBAC00289237 /* EndoClientDemo-tvOS.h */,
+				78E117161F39CBAC00289237 /* Info.plist */,
+			);
+			path = "EndoClientDemo-tvOS";
+			sourceTree = "<group>";
+		};
 		7A240DB567C1000F7B1753BC75B35AE1 /* EndoClientDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,6 +262,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				02BC0E484829B7C46319977D14A5CBAD /* Development Pods */,
+				78E117141F39CBAC00289237 /* EndoClientDemo-tvOS */,
 				E57D8BB42B7367E2EA1AB4BAF61E5D44 /* Frameworks */,
 				991819176034B11A99ECC53C250D06AD /* Pods */,
 				B2928D722FFE11539A363823F990C4A0 /* Products */,
@@ -327,6 +348,7 @@
 				E9F6912505A1D716A9FB4DA6D7C66DA8 /* EndoClientDemo.framework */,
 				F65296E6B112F04A33706A95799F4885 /* Pods_EndoClientDemo_Example.framework */,
 				A2A767EC6A5964A849B02EEEC361408C /* Pods_EndoClientDemo_Tests.framework */,
+				78E117131F39CBAC00289237 /* EndoClientDemo-tvOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -367,6 +389,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		78E117101F39CBAC00289237 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E117171F39CBAC00289237 /* EndoClientDemo-tvOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BAB38D3708CE74B1AC6B64B05E15F4DB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -402,6 +432,24 @@
 			name = EndoClientDemo;
 			productName = EndoClientDemo;
 			productReference = E9F6912505A1D716A9FB4DA6D7C66DA8 /* EndoClientDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		78E117121F39CBAC00289237 /* EndoClientDemo-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78E117181F39CBAC00289237 /* Build configuration list for PBXNativeTarget "EndoClientDemo-tvOS" */;
+			buildPhases = (
+				78E1170E1F39CBAC00289237 /* Sources */,
+				78E1170F1F39CBAC00289237 /* Frameworks */,
+				78E117101F39CBAC00289237 /* Headers */,
+				78E117111F39CBAC00289237 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EndoClientDemo-tvOS";
+			productName = "EndoClientDemo-tvOS";
+			productReference = 78E117131F39CBAC00289237 /* EndoClientDemo-tvOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		896107A0187351315FA2B58D44833E37 /* Pods-EndoClientDemo_Tests */ = {
@@ -465,6 +513,13 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					78E117121F39CBAC00289237 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4UAU9X76DX;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -482,9 +537,20 @@
 				1CB45D6956DA0AD1C2DB50409BFB98EC /* EndoClientDemo */,
 				D6012D0989DB05850C0D1A4A38CF3A92 /* Pods-EndoClientDemo_Example */,
 				896107A0187351315FA2B58D44833E37 /* Pods-EndoClientDemo_Tests */,
+				78E117121F39CBAC00289237 /* EndoClientDemo-tvOS */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78E117111F39CBAC00289237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		224A0B02F9B1BC041866AFF03B2A3EEC /* Sources */ = {
@@ -505,6 +571,13 @@
 				6D25BEF56CF11F55905C2B30F064F219 /* EndoCommander.m in Sources */,
 				C2BC874545EAEE5A64E81AC328437F48 /* EndoFileSystem.m in Sources */,
 				DD11CBBBD4D74422AEEF0E5F27D78487 /* EndoNetService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78E1170E1F39CBAC00289237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -783,6 +856,77 @@
 			};
 			name = Debug;
 		};
+		78E117191F39CBAC00289237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4UAU9X76DX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "EndoClientDemo-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peerlogicsys.EndoClientDemo-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		78E1171A1F39CBAC00289237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4UAU9X76DX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "EndoClientDemo-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peerlogicsys.EndoClientDemo-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		7998F087B751FD879FD4343B7330E14F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1232565929CF9F89EBD350937E4EAED2 /* Pods-EndoClientDemo_Example.release.xcconfig */;
@@ -958,6 +1102,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		78E117181F39CBAC00289237 /* Build configuration list for PBXNativeTarget "EndoClientDemo-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78E117191F39CBAC00289237 /* Debug */,
+				78E1171A1F39CBAC00289237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		8DD8E463E390A0ED6FB201AB3BF86C62 /* Build configuration list for PBXNativeTarget "Pods-EndoClientDemo_Example" */ = {
 			isa = XCConfigurationList;
